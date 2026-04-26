@@ -1,0 +1,13 @@
+# Нормализовать окончания строк для текстовых файлов
+* text=auto
+
+# Явно указать формат для конкретных расширений
+*.xml text eol=crlf
+*.md text eol=crlf
+*.cs text eol=crlf
+
+# Бинарные файлы — не трогать
+*.dll binary
+*.exe binary
+*.png binary
+*.jpg binary
